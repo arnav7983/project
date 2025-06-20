@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body class="bg-image">
     <div class="container">
@@ -93,7 +94,7 @@
                         <div class="photo-caption">First Met</div>
                     </div>
                 </div>
-                
+
                 <div class="photo-container">
                     <div class="photo">
                         <img src="IMG-20250602-WA0003.jpg" alt="Add your photo here">
@@ -191,9 +192,8 @@
                         <div class="photo-caption">Aesthetic😤</div>
                     </div>
                 </div>
-                
-                <!-- Add more photo containers as needed -->
             </div>
+
         </section>
 
         <section class="special-message">
@@ -217,6 +217,18 @@
         </footer>
     </div>
 
+    <div class="modal" id="loveModal">
+     <div class="modal-content">
+       <h2>💖 Happy 200 Days, My Love 💖</h2>
+       <p>This website is dedicated to our beautiful journey. I love you always 💕</p>
+       <button onclick="closeModal()">Aww 🥺</button>
+     </div>
+    </div>
+
+    <audio autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    </audio>
     <script src="script.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>
