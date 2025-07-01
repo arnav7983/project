@@ -350,18 +350,6 @@ footer {
     transition: all 0.3s ease;
 }
 
-.heart {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: url('https://cdn-icons-png.flaticon.com/512/833/833472.png') no-repeat center center/contain;
-  animation: float 10s linear infinite, pulseHeart 2s infinite;
-  cursor: pointer;
-  filter: drop-shadow(0 0 6px #ff69b4);
-}
-
-
-
 @keyframes float {
   0% { transform: translateY(0) rotate(0deg); opacity: 1; }
   100% { transform: translateY(-1000px) rotate(720deg); opacity: 0; }
